@@ -1,0 +1,80 @@
+  // Load knowledge base with keywords
+  Future<void> _loadKnowledgeBase() async {
+    // DJ Sanghvi College Knowledge
+    _knowledgeBase['dj_sanghvi'] = [
+      {
+        'content': 'Dwarkadas J. Sanghvi College of Engineering (DJSCE) was established in 1994 by the Shri Vile Parle Kelavani Mandal (SVKM) Trust. It is one of Mumbai\'s premier engineering institutions, known for academic excellence and strong industry connections.',
+        'keywords': ['established', 'founded', '1994', 'SVKM', 'history', 'dj', 'sanghvi', 'djsce', 'college', 'about']
+      },
+      {
+        'content': 'DJSCE offers undergraduate programs in Computer Engineering, Information Technology, Electronics & Telecommunication, Mechanical Engineering, and Computer Science & Engineering (Data Science). The college is affiliated with the University of Mumbai and approved by AICTE.',
+        'keywords': ['dj','sanghvi','courses', 'programs', 'branches', 'departments', 'computer', 'engineering', 'it', 'extc', 'mechanical', 'offered']
+      },
+      {
+        'content': 'The CSE-DS (Computer Science and Engineering - Data Science) department focuses on artificial intelligence, machine learning, data analytics, and big data technologies. Students learn Python and work on real-world industry projects.',
+        'keywords': ['dj','sanghvi','cseds', 'data science', 'AI', 'ML', 'department', 'cse-ds', 'computer science', 'artificial intelligence']
+      },
+      {
+        'content': 'DJSCE has excellent placement records with top companies like TCS Digital, Accenture, Deloitte, Morgan Stanley, J.P. Morgan, Goldman Sachs, and Amazon recruiting students. The average package ranges from ₹6-8 LPA, with highest packages exceeding ₹30 LPA.',
+        'keywords': ['dj','sanghvi','placement', 'jobs', 'companies', 'package', 'salary', 'tcs', 'accenture', 'deloitte', 'recruiting', 'career']
+      },
+      {
+        'content': 'The college hosts vibrant technical and cultural clubs including IEEE DJSCE, CSI, CodeCell, DJS Racing, DJS Kronos, and cultural committees. Annual events include TRINITY (cultural fest), hackathons, and technical symposiums.',
+        'keywords': ['dj','sanghvi','clubs', 'events', 'fest', 'activities', 'cultural', 'ieee', 'codecell', 'trinity', 'hackathon']
+      },
+      {
+        'content': 'DJSCE campus is located in Vile Parle West, Mumbai, within the SVKM campus. It features modern infrastructure including air-conditioned classrooms, advanced laboratories, a well-stocked library, sports facilities, and high-speed internet connectivity.',
+        'keywords': ['dj','sanghvi','location', 'campus', 'facilities', 'infrastructure', 'labs', 'library', 'vile parle', 'mumbai', 'where']
+      },
+      {
+        'content': 'Admission to DJSCE is through MHT-CET or JEE Main scores via the Maharashtra State CAP process. The college offers merit-based scholarships and government schemes like EBC, SC/ST, and minority scholarships are available.',
+        'keywords': ['dj','sanghvi','admission', 'entrance', 'MHT-CET', 'JEE', 'scholarship', 'how to get', 'apply', 'cap']
+      },
+    ];
+
+    // Taj Mahal Knowledge
+    _knowledgeBase['taj_mahal'] = [
+      {
+        'content': 'The Taj Mahal is an ivory-white marble mausoleum located in Agra, Uttar Pradesh, India. It was commissioned in 1632 by Mughal Emperor Shah Jahan to house the tomb of his beloved wife Mumtaz Mahal. Construction took approximately 22 years and was completed in 1653.',
+        'keywords': ['taj mahal', 'history', 'shah jahan', 'mumtaz mahal', 'built']
+      },
+      {
+        'content': 'The Taj Mahal is considered one of the finest examples of Mughal architecture, combining elements from Persian, Ottoman Turkish, and Indian architectural styles. The main dome is 73 meters high, and the structure is perfectly symmetrical.',
+        'keywords': ['architecture', 'design', 'dome', 'structure', 'marble']
+      },
+      {
+        'content': 'The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 and is considered one of the Seven Wonders of the World. It attracts 7-8 million visitors annually, making it India\'s most popular tourist destination.',
+        'keywords': ['unesco', 'wonder', 'tourism', 'visitors', 'heritage']
+      },
+      {
+        'content': 'The Taj Mahal is open from sunrise to sunset, except on Fridays. Entry fees are ₹50 for Indian citizens and ₹1100 for foreign tourists. The best time to visit is during October to March when the weather is pleasant.',
+        'keywords': ['visit', 'timing', 'ticket', 'entry', 'fee']
+      },
+    ];
+
+    // Indian Monuments Knowledge
+    _knowledgeBase['monuments'] = [
+      {
+        'content': 'The Red Fort (Lal Qila) in Delhi was built by Mughal Emperor Shah Jahan in 1648. It served as the main residence of Mughal emperors for nearly 200 years. The fort is made of red sandstone and is a UNESCO World Heritage Site.',
+        'keywords': ['red fort', 'delhi', 'lal qila', 'mughal', 'fort']
+      },
+      {
+        'content': 'Qutub Minar in Delhi is a 73-meter tall minaret built in 1193 by Qutb-ud-din Aibak. It is the tallest brick minaret in the world and is surrounded by several historically significant monuments including the Iron Pillar.',
+        'keywords': ['qutub minar', 'delhi', 'minaret', 'tower', 'iron pillar']
+      },
+      {
+        'content': 'The Gateway of India in Mumbai was built in 1924 to commemorate the visit of King George V and Queen Mary. It is an iconic arch monument overlooking the Arabian Sea and is one of Mumbai\'s most photographed landmarks.',
+        'keywords': ['gateway of india', 'mumbai', 'arch', 'monument', 'landmark']
+      },
+      {
+        'content': 'Hawa Mahal (Palace of Winds) in Jaipur was built in 1799 by Maharaja Sawai Pratap Singh. The five-story palace has 953 small windows (jharokhas) designed to allow royal ladies to observe street festivals while remaining unseen.',
+        'keywords': ['hawa mahal', 'jaipur', 'palace', 'rajasthan', 'windows']
+      },
+      {
+        'content': 'The Victoria Memorial in Kolkata was built between 1906 and 1921 in memory of Queen Victoria. It is constructed of white marble and houses a museum with a vast collection of artifacts from the British colonial period.',
+        'keywords': ['victoria memorial', 'kolkata', 'museum', 'british', 'marble']
+      },
+    ];
+
+    print('📚 Knowledge base loaded with ${_knowledgeBase.length} topics');
+  }

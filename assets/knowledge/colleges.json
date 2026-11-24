@@ -1,0 +1,30 @@
+{
+    "colleges": [
+        {
+            "name": "DJ Sanghvi College of Engineering",
+            "location": "Mumbai, Maharashtra",
+            "keywords": [
+                "dj",
+                "sanghvi",
+                "djsce",
+                "college",
+                "engineering",
+                "mumbai",
+                "vile parle"
+            ],
+            "category": "college",
+            "facts": [
+                "Established in 1994 by the Shri Vile Parle Kelavani Mandal (SVKM)",
+                "One of Mumbai's premier engineering institutions",
+                "Offers undergraduate and postgraduate programs",
+                "Known for strong industry connections and placements",
+                "Located in Vile Parle, Mumbai"
+            ],
+            "stories": {
+                "romantic": "DJ Sanghvi has been the starting point for countless friendships, collaborations, and even love stories! The campus buzzes with energy as students work together on innovative projects.",
+                "historical": "Founded in 1994, DJSCE quickly established itself as a leading engineering college. Named after Dwarkadas J. Sanghvi, a visionary philanthropist, the college has produced thousands of successful engineers who contribute to India's tech industry.",
+                "architectural": "The modern campus features state-of-the-art laboratories, a well-stocked library, and collaborative spaces where future engineers bring their ideas to life. The campus blends functionality with aesthetics, creating an inspiring learning environment!"
+            }
+        }
+    ]
+}

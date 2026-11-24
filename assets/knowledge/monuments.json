@@ -1,0 +1,94 @@
+{
+  "monuments": [
+    {
+      "name": "Taj Mahal",
+      "location": "Agra, Uttar Pradesh",
+      "keywords": ["taj", "mahal", "agra", "monument", "love", "shah jahan", "mumtaz"],
+      "category": "monument",
+      "facts": [
+        "Built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal",
+        "Construction began in 1632 and took 22 years to complete",
+        "Made of white marble with intricate inlay work",
+        "One of the Seven Wonders of the World",
+        "UNESCO World Heritage Site"
+      ],
+      "stories": {
+        "romantic": "The Taj Mahal stands as an eternal symbol of love! Emperor Shah Jahan was so heartbroken by his wife's death that he built this magnificent monument to honor her memory. Imagine - 22 years of dedication, thousands of artisans, all for love!",
+        "historical": "Construction of the Taj Mahal began in 1632. Over 20,000 workers and 1,000 elephants were employed to transport materials. The main architect was Ustad Ahmad Lahauri, and the project cost an estimated 32 million rupees at that time.",
+        "architectural": "The Taj Mahal is a masterpiece of Mughal architecture, combining elements from Persian, Ottoman Turkish, and Indian architectural styles. The white marble changes color throughout the day - pink in the morning, milky white in the evening, and golden under moonlight!"
+      }
+    },
+    {
+      "name": "Red Fort",
+      "location": "Delhi",
+      "keywords": ["red", "fort", "delhi", "lal qila", "mughal", "independence"],
+      "category": "monument",
+      "facts": [
+        "Built by Mughal Emperor Shah Jahan in 1648",
+        "Served as the main residence of Mughal emperors for 200 years",
+        "Made of red sandstone",
+        "Site of India's Independence Day celebrations",
+        "UNESCO World Heritage Site"
+      ],
+      "stories": {
+        "romantic": "The Red Fort witnessed countless royal romances and celebrations! Its beautiful gardens and palaces were home to emperors and their families for centuries.",
+        "historical": "On August 15, 1947, India's first Prime Minister Jawaharlal Nehru raised the Indian flag here, marking India's independence. Every year since, the Prime Minister addresses the nation from its ramparts!",
+        "architectural": "The fort's massive red sandstone walls stretch for 2.5 kilometers! Inside, you'll find stunning palaces like Diwan-i-Aam (Hall of Public Audience) and Diwan-i-Khas (Hall of Private Audience), where the famous Peacock Throne once stood."
+      }
+    },
+    {
+      "name": "Gateway of India",
+      "location": "Mumbai, Maharashtra",
+      "keywords": ["gateway", "india", "mumbai", "bombay", "arch", "monument"],
+      "category": "monument",
+      "facts": [
+        "Built to commemorate the visit of King George V and Queen Mary in 1911",
+        "Completed in 1924",
+        "Built in Indo-Saracenic style",
+        "Overlooks the Arabian Sea",
+        "Mumbai's most iconic landmark"
+      ],
+      "stories": {
+        "romantic": "The Gateway of India has been the backdrop for countless love stories! Couples gather here to watch the sunset over the Arabian Sea, creating magical moments.",
+        "historical": "Ironically, this monument built to welcome British royalty also witnessed their departure! The last British troops left India through this very gateway in 1948, symbolizing the end of colonial rule.",
+        "architectural": "Standing 26 meters tall, this magnificent arch combines Hindu and Muslim architectural styles. The central dome is inspired by 16th-century Gujarati architecture, while the archway reflects Islamic influences!"
+      }
+    },
+    {
+      "name": "Qutub Minar",
+      "location": "Delhi",
+      "keywords": ["qutub", "minar", "delhi", "tower", "tallest", "minaret"],
+      "category": "monument",
+      "facts": [
+        "Tallest brick minaret in the world at 73 meters",
+        "Construction started in 1192 by Qutb ud-Din Aibak",
+        "Completed by his successor Iltutmish",
+        "Made of red sandstone and marble",
+        "UNESCO World Heritage Site"
+      ],
+      "stories": {
+        "romantic": "Legend says the tower was built as a victory monument, but some believe it was also meant to call the faithful to prayer, spreading love and devotion across the land!",
+        "historical": "Qutub Minar marks the beginning of Muslim rule in India. It was built using materials from 27 Hindu and Jain temples, symbolizing the transition of power in medieval India.",
+        "architectural": "The tower has five distinct stories, each marked by a projecting balcony. The first three stories are made of red sandstone, while the fourth and fifth are of marble and sandstone. It tapers from 15 meters at the base to just 2.5 meters at the top!"
+      }
+    },
+    {
+      "name": "Hawa Mahal",
+      "location": "Jaipur, Rajasthan",
+      "keywords": ["hawa", "mahal", "jaipur", "palace", "pink", "windows"],
+      "category": "monument",
+      "facts": [
+        "Built in 1799 by Maharaja Sawai Pratap Singh",
+        "Has 953 small windows called jharokhas",
+        "Built in the form of Lord Krishna's crown",
+        "Made of red and pink sandstone",
+        "Part of Jaipur's City Palace complex"
+      ],
+      "stories": {
+        "romantic": "The 'Palace of Winds' was built so royal ladies could observe street festivals and daily life without being seen! These 953 windows allowed cool breezes to flow through, keeping the palace comfortable even in Rajasthan's scorching heat.",
+        "historical": "Maharaja Sawai Pratap Singh built this architectural marvel as an extension of the Royal City Palace. It allowed royal women to practice 'purdah' while still enjoying the vibrant street life of Jaipur.",
+        "architectural": "Despite its grand five-story facade, Hawa Mahal is only one room deep! The honeycomb structure with its 953 windows creates a stunning visual effect and serves as a natural air conditioning system. The pink sandstone gives it a warm, welcoming glow!"
+      }
+    }
+  ]
+}
